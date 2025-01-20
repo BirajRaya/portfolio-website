@@ -1,24 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import './index.css';
+import React from 'react';
+import Profile from './Components/profile';
+import Content from './Components/content';
+import useLocalStorage from 'use-local-storage';
+
 
 function App() {
+  const[isDark, setDarkTheme] = useLocalStorage('darkTheme', false);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Profile  isDark={isDark} setDarkTheme={setDarkTheme}/>
+    <Content isDark={isDark}/>
+    </>
   );
 }
 
