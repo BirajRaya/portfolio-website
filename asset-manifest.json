@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/birajraya.com.np/static/css/main.97c21a4e.css",
-    "main.js": "/birajraya.com.np/static/js/main.a4bed03d.js",
-    "static/media/image.png": "/birajraya.com.np/static/media/image.b3d04928933b312e7eb4.png",
-    "index.html": "/birajraya.com.np/index.html",
-    "main.97c21a4e.css.map": "/birajraya.com.np/static/css/main.97c21a4e.css.map",
-    "main.a4bed03d.js.map": "/birajraya.com.np/static/js/main.a4bed03d.js.map"
+    "main.css": "/static/css/main.97c21a4e.css",
+    "main.js": "/static/js/main.cfc952b5.js",
+    "static/media/image.png": "/static/media/image.b3d04928933b312e7eb4.png",
+    "index.html": "/index.html",
+    "main.97c21a4e.css.map": "/static/css/main.97c21a4e.css.map",
+    "main.cfc952b5.js.map": "/static/js/main.cfc952b5.js.map"
   },
   "entrypoints": [
     "static/css/main.97c21a4e.css",
-    "static/js/main.a4bed03d.js"
+    "static/js/main.cfc952b5.js"
   ]
 }
