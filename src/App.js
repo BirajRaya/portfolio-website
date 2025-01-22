@@ -1,12 +1,11 @@
 import './index.css';
 import React from 'react';
-import Profile from './Components/profile';
-import Content from './Components/content';
+import { Profile, Content } from './Components/profile';
 import useLocalStorage from 'use-local-storage';
 
 
 function App() {
-  const[isDark, setDarkTheme] = useLocalStorage('darkTheme', false);
+  const[isDark, setDarkTheme] = useLocalStorage('darkTheme', true);
   return (
     <>
     <Profile  isDark={isDark} setDarkTheme={setDarkTheme}/>
