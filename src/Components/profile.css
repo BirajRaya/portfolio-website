@@ -72,6 +72,7 @@ body{
   transition: all 0.3s ease;
   font-size: 0.9rem;
   letter-spacing: 0.5px;
+  text-decoration: none;
 }
 
 .button:hover {
@@ -401,5 +402,125 @@ body{
     padding: 1.2rem;
   }
 }
+
+
+/* Add these styles to your CSS file */
+@media (max-width: 1024px) {
+  .profile-container {
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-right: none;
+    border-bottom: 1px solid var(--border-color);
+    padding: 2rem 1rem;
+  }
+
+  .content-container {
+    margin-left: 0;
+    padding: 2rem 1rem;
+  }
+
+  .profile-content {
+    padding: 1rem;
+  }
+
+  .name {
+    font-size: 2.5rem;
+  }
+
+  .button-container {
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .theme-switch {
+    position: relative;
+    margin-top: 2rem;
+    justify-content: center;
+  }
+
+  .social-container {
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .name {
+    font-size: 2rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+
+  .button-container {
+    flex-direction: column;
+    width: 100%;
+    gap: 0.8rem;
+  }
+
+  .button {
+    width: 100%;
+  }
+
+  .experience-header {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .job-date {
+    align-self: flex-start;
+  }
+
+  .simple-skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-image-container {
+    height: 200px;
+  }
+
+  .project-links-overlay {
+    flex-direction: column;
+  }
+
+  .social-container {
+    gap: 1rem;
+  }
+
+  .section-header {
+    font-size: 1.5rem;
+  }
+}
+
+/* Additional responsive adjustments */
+@media (max-width: 768px) {
+  .experience-box {
+    padding: 1rem;
+  }
+
+  .section-text {
+    font-size: 1rem;
+  }
+
+  .project-info {
+    padding: 1.5rem 1rem;
+  }
+
+  .skills-container {
+    gap: 0.4rem;
+  }
+
+  .skill-box {
+    font-size: 0.8rem;
+    padding: 0.25rem 0.6rem;
+  }
+
+  .simple-skill-item {
+    font-size: 0.85rem;
+    padding: 0.3rem 0.6rem;
+  }
+}
+
 
 

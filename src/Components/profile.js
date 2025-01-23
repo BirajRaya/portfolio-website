@@ -20,7 +20,7 @@ const Profile = ({ isDark, setDarkTheme }) => {
           <Link to="#">
             <button className="button primary">See Resume</button>
           </Link>
-          <button className="button">Contact Info</button>
+          <a href="mailto:contact@birajraya.com.np" className="button">Contact Me</a>
         </div>
 
         <div className="social-container">
