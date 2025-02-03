@@ -94,6 +94,14 @@ const Content = ({ isDark }) => {
       skills: ["Java", "Jsp", "Servlet","Postgres", "Dynamic Web Application"],
       image: "image.png" 
     },
+    {
+      "projectTitle": "Quick-Note: Lightweight Note-Taking App",
+      "projectDescription": "Quick-Note is a fast and minimalistic note-taking web application built using React and Vite. It allows users to create, edit, and delete notes effortlessly with a clean and intuitive interface. The app ensures a smooth user experience with real-time updates and local storage support for persistence. Designed for simplicity and efficiency, Quick-Note helps users stay organized without unnecessary complexity.",
+      "demoLink": "https://quicknote.birajraya.com.np/",
+      "githubLink": "https://github.com/BirajRaya/Quick-Note.git",
+      "skills": ["React", "Vite", "JavaScript", "CSS", "Local Storage"],
+      "image": "quicknote.png"
+    },
   ];
   const skills = [
     {
@@ -196,7 +204,8 @@ const Content = ({ isDark }) => {
                   className="project-image"
                 />
                 <div className="project-links-overlay">
-                  <a href target="_blank" rel="noopener noreferrer" className="button">
+                  <a href={project.demoLink !== "#" ? project.demoLink : undefined}
+                  target="_blank" rel="noopener noreferrer" className="button">
                     Live Demo
                   </a>
                   <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="button">
