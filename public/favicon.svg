@@ -1,0 +1,39 @@
+<svg
+  width="200"
+  height="200"
+  viewBox="0 0 200 200"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Outer Frame -->
+  <rect x="10" y="10" width="180" height="180" rx="20" stroke="#1ABC9C" stroke-width="5" fill="none"/>
+
+  <!-- Bold "B" -->
+  <text
+    x="30%"
+    y="60%"
+    font-family="Verdana, sans-serif"
+    font-size="100"
+    font-weight="bold"
+    fill="#1ABC9C"
+    text-anchor="middle"
+    alignment-baseline="middle"
+  >
+    B
+  </text>
+
+  <!-- Bold "R" -->
+  <text
+    x="70%"
+    y="60%"
+    font-family="Verdana, sans-serif"
+    font-size="100"
+    font-weight="bold"
+    fill="#1ABC9C"
+    text-anchor="middle"
+    alignment-baseline="middle"
+  >
+    R
+  </text>
+
+</svg>
